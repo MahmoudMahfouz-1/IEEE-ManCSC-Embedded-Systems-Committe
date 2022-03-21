@@ -10,11 +10,17 @@ Task2:
 	Non-Vectored Interrupts: are those which don't have a predefined address so the CPU won't know which device caused the interrupt.
 	I didn't find an exact answer for the last part of the question but i think that they both might be used.
 Task3:
-	Communication Protocol: It is the way we exchange data between computing systems, For example if we want to exchange data between two microcontrollers we will use a communication protocol.
+	Communication Protocol: It is the way we exchange data between computing systems,
+    For example if we want to exchange data between two microcontrollers we will use a communication protocol.
 
 Bouns Task:
 	Callback Function: is a function that is passed to another function as an argument using a pointer to this function.
-	So if you want to use a function in the main function without calling it directly you will make a function that takes a pointer to a function, inside this function you will derefference the pointer to function that you took as an argument, In the main funtion you will make a pointer to a function and give it the address of the first function and then call the second funtion and give it the pointer, and it will call the the first function that you don't want to call it directly in the main funtion.
+
+	So if you want to use a function in the main function without calling it directly you will make a function that 
+	takes a pointer to a function, inside this function you will derefference the pointer to function that you took as 
+	an argument, In the main funtion you will make a pointer to a function and give it the address of the first function 
+	and then call the second funtion and give it the pointer, and it will call the the first function that you don't 
+	want to call it directly in the main funtion.
 
 	example:
 		void func1()
