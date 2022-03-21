@@ -4,7 +4,7 @@ Task2:
 	After research I found out that to answer this question, First we must define what is an interrupt ?
 	- An interrupt is a signal sent to the microprocessor requesting its services do the control is transferred to 
 	the sub-routine and after executing the interrupt the control goes back to the main program,
-	 and the interrupts are classified into Vectored and Non-Vectored Interrupts and hardware / software interrupts.
+	and the interrupts are classified into Vectored and Non-Vectored Interrupts and hardware / software interrupts.
 	
 	Vectored Interrupts: are those and the program control is transferred to that address after executing the interrupts
 	Non-Vectored Interrupts: are those which don't have a predefined address so the CPU won't know which device caused the interrupt.
