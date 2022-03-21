@@ -6,11 +6,8 @@ Task2:
 	the sub-routine and after executing the interrupt the control goes back to the main program,
 	 and the interrupts are classified into Vectored and Non-Vectored Interrupts and hardware / software interrupts.
 	
-	
 	Vectored Interrupts: are those and the program control is transferred to that address after executing the interrupts
-
 	Non-Vectored Interrupts: are those which don't have a predefined address so the CPU won't know which device caused the interrupt.
-	
 	I didn't find an exact answer for the last part of the question but i think that they both might be used.
 Task3:
 	Communication Protocol: It is the way we exchange data between computing systems, For example if we want to exchange data between two microcontrollers we will use a communication protocol.
